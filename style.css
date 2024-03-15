@@ -75,15 +75,6 @@ div.descripcion {
     line-height: 1.5; /* Establece el interlineado a 1.5 veces la altura de la fuente */
 }
 
-/*Bordes*/
-.bordesMix {
-    border: 2px solid #9297a8;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
-    padding: 5px;
-    background-color: #9297a8;
-  }
-
 aside {
     grid-area: sidebar;
 }
@@ -92,6 +83,15 @@ aside {
     border-right: 1px solid #999;
     padding: 10px;
 }
+
+/*Bordes*/
+.bordesMix {
+    border: 2px solid #9297a8;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 5px;
+    background-color: #9297a8;
+  }
 
 /*Estilo de lista*/
 ol {
